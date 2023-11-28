@@ -1,0 +1,230 @@
+body{
+    background-color: white;
+    font-family: 'CenturySchoolbook', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+h1 {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.pie {
+    background-color: #7508;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 10px;
+
+  }
+  .menu {
+    position: absolute;
+    top: 10px; 
+    right: 100px ; 
+    
+    width: 35px; 
+    height: auto;
+}
+  .top-bar {
+    background-color: #7508;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    max-height: 10px;
+  }
+
+  .lupa{
+    position: absolute;
+    top: 10px;
+    left: 1325px; 
+    
+    width: 35px; 
+    height: auto;
+  }
+
+  .corazon{
+    position: absolute;
+    top: 10px; 
+    left: 1275px; 
+    
+    width: 35px; 
+    height: auto;
+  }
+
+
+  .casa{
+    position: absolute;
+    top: 7.5px; 
+    left: 1225px; 
+    
+    width: 35px; 
+    height: auto;
+  }
+
+
+  h2{
+    font-family: 'CenturySchoolbook', serif;
+    font-size: 15px;
+    position: absolute;  
+    bottom: 30px;           
+    left: 70px;             
+    margin: 0; 
+  }
+
+  h3{
+    font-family: 'CenturySchoolbook', serif;
+    font-size: 15px;
+    position: absolute;  
+    bottom: 30px;            
+    left: 600px;             
+    margin: 0;
+  }
+
+  h4{
+    font-family: 'CenturySchoolbook', serif;
+    font-size: 15px;
+    position: absolute;  
+    bottom: 30px;           
+    left: 1150px;            
+    margin: 0;
+  }
+
+
+  .Imagen1 {
+    display: block;       
+    margin: auto;        
+    position: absolute;   
+    top: 50%;            
+    left: 50%;           
+    transform: translate(-185%, -50%);
+    width: 350px; 
+    height: auto;
+  }
+
+.Imagen2 {
+  display: block;       
+  margin: auto;        
+  position: absolute;   
+  top: 50%;             
+  left: 48.5%;           
+  transform: translate(-42%, -50%);
+  width: 350px; 
+  height: auto;
+}
+ 
+.Imagen3 {
+  display: block;      
+  margin: auto;        
+  position: absolute;   
+  top: 50%;            
+  left: 73%;            
+  transform: translate(-5%, -50%);
+  width: 350px; 
+  height: auto; 
+}
+.contenedor-imagen1 h5 {
+  position: absolute;
+  bottom: 224px;
+  width: 100%;
+  left: 1035px;
+  font-family: 'CenturySchoolbook', serif;
+  font-size: 20px;
+}
+
+.contenedor-imagen2 h6{
+  position: absolute;
+  bottom: 209px;
+  width: 100%;
+  left: 552px;
+  font-family: 'CenturySchoolbook', serif;
+  font-size: 20px;
+}
+.contenedor-imagen3 { 
+  position: relative;
+}
+.h7{
+  position: absolute;
+  bottom: 235px;
+  width: 100px;
+  left: 75px;
+  font-family: 'CenturySchoolbook', serif;
+  font-size: 20px;
+  color:black;
+  font-weight: bold;
+  margin: 0;
+}
+.h8{
+  position: absolute;
+  bottom: 195px;
+  width: 100%;
+  left: 1035px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+.h82{
+  position: absolute;
+  bottom: 170px;
+  width: 100%;
+  left: 1035px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+.h9{
+  position: absolute;
+  bottom: 190px;
+  width: 100%;
+  left: 550px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+
+.h92{
+  position: absolute;
+  bottom: 170px;
+  width: 100%;
+  left: 550px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+.h10{
+  position: absolute;
+  bottom: 192px;
+  width: 100%;
+  left: 72px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+.h102{
+  position: absolute;
+  bottom: 170px;
+  width: 100%;
+  left: 72px;
+  font-family: 'Cambria', serif;
+  font-size: 15px;
+}
+.logo{
+  position: absolute;
+  top: 0px; 
+  left: 0px; 
+  
+  width: 65px; 
+  height: auto;
+}
+
+
+  @font-face {
+    font-family: 'CenturySchoolbook';
+    src: url('./fonts/CenturySchoolbook.ttf') format('truetype');
+}
+
+
+  
